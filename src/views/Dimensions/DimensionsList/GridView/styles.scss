@@ -1,0 +1,62 @@
+.add-dimension-thumb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 250px;
+  height: 194px;
+  margin: 20px 10px;
+
+  border: 2px dashed rgba(255, 255, 255, 0.12);
+  border-radius: 3px;
+  cursor: pointer;
+}
+.theme-light {
+  .add-dimension-thumb {
+    border: 2px dashed rgba(0, 0, 0, 0.12);
+  }
+}
+
+.config-count {
+  display: inline-block;
+  flex: 0 0 22px;
+  height: 22px;
+  margin-right: 10px;
+
+  line-height: 22px;
+  text-align: center;
+
+  border: 1px solid;
+  border-radius: 50%;
+}
+
+.dimension-center-icon {
+  position: relative;
+}
+.merge-sheet-icon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 30px;
+  border-top-left-radius: 14px;
+  img {
+    width: 20px;
+    height: auto;
+  }
+  &.linked {
+    background-color: rgba(0, 179, 152, 0.1);
+    color: #00b398;
+    img {
+      width: 15px;
+    }
+  }
+  &.unlinked {
+    background-color: rgba(239, 83, 80, 0.1);
+    color: #ef5350;
+  }
+}

@@ -1,0 +1,124 @@
+.formula-builder-wrap {
+  position: relative;
+
+  width: 100%;
+  min-height: 100px;
+  min-height: 120px;
+  margin: 10px 0;
+  padding: 5px;
+
+  border: 1px solid #7f7f7f;
+  border-radius: 4px;
+  @media (max-width: 1300px) {
+    min-width: 100%;
+    max-width: 100%;
+  }
+  .disable-operator {
+    cursor: not-allowed !important;
+    opacity: 0.3;
+  }
+
+  .operators-list {
+    padding: 6px 12px;
+
+    font-size: 12px;
+
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .delete-fx-icon {
+    visibility: hidden;
+    cursor: pointer;
+  }
+
+  .formula-input {
+    input {
+      font-size: 12px;
+    }
+  }
+
+  .formula-fix-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    &:hover {
+      .delete-fx-icon {
+        visibility: visible;
+      }
+    }
+  }
+
+  .formula-fx-box {
+    display: flex;
+    margin: 0 2px;
+
+    .MuiButton-label {
+      font-weight: normal;
+      font-size: 12px;
+      text-transform: none;
+      white-space: nowrap;
+    }
+  }
+}
+.formula-builder-wrap.error {
+  border-color: red;
+}
+.formula-edit-mode {
+  position: relative;
+  z-index: 1;
+
+  min-height: 60px;
+
+  p {
+    margin: 0 10px;
+  }
+}
+.suggestion-popover {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+  z-index: 9999;
+}
+.formula-error-icon {
+  position: absolute;
+  right: 5px;
+  bottom: 0;
+  z-index: 2;
+}
+.formula-builder-wrap .MuiButton-textPrimary.formula-error-btn {
+  color: red;
+  &:hover {
+    background-color: #4f3333;
+  }
+  &.formula-btn-focused {
+    background-color: #6b2b2b;
+  }
+}
+.theme-dark {
+  .MuiButton-textPrimary.formula-btn-focused {
+    background-color: rgba(0, 179, 152, 0.08);
+  }
+}
+.theme-yellow {
+  .MuiButton-textPrimary.formula-btn-focused {
+    background-color: rgba(255, 192, 1, 0.08);
+  }
+}
+.theme-light {
+  .calculation-wrap {
+    border-color: rgba(0, 0, 0, 0.23);
+    .operators-list {
+      background: #e8e8e8;
+    }
+  }
+  .formula-builder-wrap {
+    .operators-list {
+      background-color: rgba($color: #000000, $alpha: 0.12);
+    }
+  }
+  .MuiButton-textPrimary.formula-btn-focused {
+    background-color: rgba(0, 148, 255, 0.04);
+  }
+}

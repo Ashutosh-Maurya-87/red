@@ -1,0 +1,39 @@
+.rbm-title.MuiDialogTitle-root {
+  padding-bottom: 3px;
+}
+.rule-template-box {
+  background-color: #292929;
+  border: 1px solid transparent;
+  cursor: pointer;
+  &:hover,
+  &.active {
+    border-color: #00b398;
+  }
+}
+.rule-template-icon {
+  background-color: #393939;
+}
+.theme-light {
+  .rule-template-box {
+    background-color: #e8e8e8;
+    &:hover,
+    &.active {
+      border-color: #0094ff;
+    }
+  }
+  .rule-template-icon {
+    background-color: rgba(0, 0, 0, 0.06);
+  }
+}
+.theme-yellow {
+  .rule-template-box {
+    background-color: #2f3138;
+    &:hover,
+    &.active {
+      border-color: #ffc001;
+    }
+  }
+  .rule-template-icon {
+    background-color: rgba(255, 255, 255, 0.12);
+  }
+}

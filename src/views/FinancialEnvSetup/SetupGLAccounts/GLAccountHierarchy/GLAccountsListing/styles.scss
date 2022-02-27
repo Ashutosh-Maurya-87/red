@@ -1,0 +1,47 @@
+.hierarchy-accounts-list {
+  .ReactVirtualized__Table__headerColumn {
+    margin: 0 !important;
+
+    background-color: rgba(0, 0, 0, 0.05);
+    .MuiTableCell-head:first-of-type {
+      padding-left: 10px;
+    }
+  }
+
+  .data-selected {
+    background-color: rgba(26, 159, 255, 0.08);
+    .ReactVirtualized__Table__headerColumn:nth-child(2) {
+      flex: 0 0 100% !important;
+
+      text-transform: initial;
+    }
+  }
+}
+.account-name {
+  overflow: hidden;
+
+  text-transform: capitalize;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.capitalizedText {
+  text-transform: uppercase;
+}
+.theme-dark,
+.theme-yellow {
+  .ReactVirtualized__Table__headerColumn {
+    color: rgba(255, 255, 255, 0.6);
+
+    background-color: rgba(0, 0, 0, 0.12);
+  }
+}
+.theme-yellow {
+  .data-selected {
+    background-color: rgba(255, 192, 1, 0.08);
+  }
+}
+.theme-dark {
+  .data-selected {
+    background-color: rgba(0, 205, 174, 0.08);
+  }
+}

@@ -1,0 +1,14 @@
+.sidebar-menu {
+  .delete-icon {
+    visibility: hidden;
+  }
+  &:hover {
+    background-color: rgba(0,0,0,0.12);
+    .delete-icon {
+      visibility: visible;
+    }
+  }
+  &.selected {
+    background-color: rgba(0,0,0,0.12);
+  }
+}

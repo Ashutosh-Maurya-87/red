@@ -1,0 +1,23 @@
+.scenario-msg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 430px;
+  margin: auto;
+  padding: 90px 0;
+
+  text-align: center;
+  > div > * {
+    width: 100%;
+  }
+  .btn-option {
+    margin-top: 15px;
+    span {
+      margin: 0 15px;
+    }
+  }
+  img {
+    width: 56px;
+    margin-bottom: 20px;
+  }
+}

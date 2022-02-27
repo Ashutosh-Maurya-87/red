@@ -1,0 +1,66 @@
+.small-select {
+  .MuiSelect-select {
+    padding-top: 11px;
+    padding-bottom: 11px;
+  }
+  .MuiInputLabel-formControl {
+    transform: translate(14px, 12px) scale(1);
+  }
+}
+.border-form-input {
+  .small-select {
+    min-width: 175px;
+    max-width: 175px;
+    margin: 0;
+    .MuiSelect-select {
+      padding-top: 6px;
+      padding-bottom: 6px;
+    }
+    @media (max-width: 992px) {
+      min-width: 80%;
+      max-width: 80%;
+    }
+  }
+}
+.copy-table {
+  width: 80%;
+  @media (max-width: 1300px) {
+    width: 95%;
+  }
+  @media (max-width: 992px) {
+    p {
+      padding: 0 4px;
+
+      font-size: 15px;
+    }
+  }
+}
+.copy-table-autocomplete {
+  width: 85%;
+}
+.copy-table-new-tag {
+  &:after {
+    content: 'new';
+    position: absolute;
+
+    margin-top: 2px;
+    margin-left: -32px;
+    padding: 1px 5px;
+
+    font-size: 11px;
+
+    background: #444444;
+    border-radius: 15px;
+  }
+  .MuiAutocomplete-inputRoot[class*='MuiInput-root']
+    .MuiAutocomplete-input:first-child {
+    padding-right: 36px;
+  }
+}
+.theme-light {
+  .copy-table-new-tag {
+    &:after {
+      background-color: #bbb;
+    }
+  }
+}

@@ -1,0 +1,182 @@
+.data-type-popover {
+  .data-type-note {
+    max-width: 238px;
+
+    line-height: 1.2;
+  }
+}
+
+.date-select {
+  width: 100%;
+}
+
+.translate-table-data-grid {
+  .scroll-width {
+    position: absolute;
+
+    width: 100% !important;
+    height: 65px !important;
+    overflow-x: auto;
+    overflow-y: hidden;
+
+    inset: 0;
+  }
+  .scrollbar-custom-view {
+    height: 84px !important;
+    margin-right: 0 !important;
+    margin-bottom: 0 !important;
+    overflow-x: scroll !important;
+    overflow-y: hidden !important;
+  }
+  .row-checkbox {
+    padding: 0 9px;
+  }
+  .row-selection-check {
+    padding: 7px 9px;
+  }
+  .data-header {
+    overflow: hidden !important;
+    .cell {
+      padding-right: 4px;
+      img,
+      svg {
+        vertical-align: middle;
+      }
+    }
+  }
+  .data-body {
+    padding-top: 64px;
+    .grid {
+      overflow: auto !important;
+    }
+    .action-cell {
+      padding: 0;
+
+      text-align: center;
+    }
+    .cell {
+      cursor: text;
+      .row-index {
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 48px;
+        height: 32px;
+        overflow: hidden;
+        z-index: -1;
+
+        background-color: #f3f3f3;
+        border-right: 1px solid #dddddd;
+      }
+      .placeholder-value {
+        position: fixed;
+
+        display: contents;
+        max-width: calc(100% - 40px);
+        overflow: hidden;
+
+        font-style: italic;
+      }
+
+      .value-viewer {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      }
+
+      .cell-arrow {
+        position: absolute;
+        right: 5px;
+
+        cursor: pointer;
+      }
+
+      &.editing {
+        .placeholder-value,
+        .cell-arrow {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .cell {
+    position: relative;
+
+    height: auto;
+    padding: 4px 15px;
+
+    text-align: left;
+
+    border-color: #dddddd;
+    &.read-only {
+      text-align: left;
+      color: inherit;
+
+      background: transparent;
+    }
+    input {
+      height: 100%;
+
+      border: 0;
+    }
+  }
+}
+
+.flex-fill {
+  display: flex;
+  * {
+    flex: auto;
+  }
+}
+
+.flex-50 {
+  flex: 0 0 52px;
+}
+
+
+.table-header {
+  min-width: 0;
+  &:not(.table-heading-header) {
+    h6 {
+      width: 70%;
+      overflow: hidden;
+    
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+  }
+}
+.table-heading-header {
+  z-index: 1;
+  
+  overflow: visible;
+}
+
+.calculation-box-popover {
+  min-width: 300px;
+  max-width: 600px;
+  overflow: auto;
+
+  .calculation-wrap {
+    min-width: 100%;
+  }
+}
+
+.theme-yellow,
+.theme-dark {
+  .translate-table-data-grid {
+    .data-body {
+      .cell {
+        .row-index {
+          background-color: #131313;
+          border-right: 1px solid rgba(255, 255, 255, 0.12);
+        }
+      }
+    }
+  }
+}

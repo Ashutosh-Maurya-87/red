@@ -1,0 +1,52 @@
+.re-order-process-icon {
+  width: 24px;
+
+  .re-order-process-details-wrap {
+    .re-order-process-details {
+      display: flex;
+
+      .re-order-process-name {
+        min-width: 250px;
+      }
+    }
+  }
+}
+.paper-content {
+  position: relative;
+}
+.drag-color {
+  padding: 5px 20px;
+
+  color: #000000;
+
+  background-color: #dcefff;
+  border-radius: 4px;
+}
+.column-delete-error.MuiPaper-elevation1 {
+  box-shadow: 0 0 4px red;
+}
+.theme-light {
+  .paper-content.drag-over {
+    border: 1px dashed #0094ff;
+  }
+}
+.theme-dark {
+  .drag-color {
+    color: #ffffff;
+
+    background-color: #1f3734;
+  }
+  .paper-content.drag-over {
+    border: 1px dashed #00b398;
+  }
+}
+.theme-yellow {
+  .drag-color {
+    color: #ffffff;
+
+    background-color: #413a1f;
+  }
+  .paper-content.drag-over {
+    border: 1px dashed #413a1f;
+  }
+}

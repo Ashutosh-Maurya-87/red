@@ -1,0 +1,24 @@
+.query-viewer {
+  line-height: 23px;
+  ul,
+  ol {
+    margin: 0;
+    padding-left: 20px;
+  }
+  i {
+    color: #dedede;
+  }
+}
+.theme-light {
+  .query-viewer {
+    i {
+      color: #666666;
+    }
+  }
+}
+
+.formula-viewer {
+  span {
+    padding: 0 2px;
+  }
+}

@@ -1,0 +1,32 @@
+.field-expansion-panel {
+  margin-bottom: 20px;
+  &.MuiExpansionPanel-root {
+    border-radius: 4px;
+    &::before {
+      background-color: transparent;
+    }
+  }
+}
+.field-expansion-panel-detail {
+  max-height: 400px;
+  overflow: auto;
+  padding-bottom: 20px;
+  flex-flow: column;
+}
+.field-expansion-panel-summary {
+  .MuiExpansionPanelSummary-content {
+    flex-direction: column;
+    margin: 0;
+    min-width: 0;
+  }
+}
+.system-panel-disabled {
+  opacity: 0.5;
+  cursor: not-allowed !important;
+}
+.hierarchy-order {
+  padding: 16px;
+}
+.field-config-container {
+  min-height: calc(100vh - 150px);
+}

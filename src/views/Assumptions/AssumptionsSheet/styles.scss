@@ -1,0 +1,58 @@
+.assumptions-grid {
+  .data-grid-container .data-grid .cell {
+    &.header-cell {
+      display: flex !important;
+      align-items: center;
+      height: 44px;
+      max-height: 44px;
+      overflow: hidden;
+
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      .data-editor {
+        width: 100%;
+        margin-top: 0;
+        padding: 0 !important;
+
+        background-color: inherit;
+      }
+    }
+  }
+  .cell {
+    display: inline-block;
+    max-height: 32px;
+    input {
+      margin-top: 2px;
+
+      letter-spacing: 0.01071em;
+    }
+  }
+  .cell.updated {
+    background-color: inherit !important;
+
+    transition: unset !important;
+  }
+  .ReactVirtualized__Grid__innerScrollContainer {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  }
+  .ReactVirtualized__Grid {
+    &::-webkit-scrollbar {
+      width: 10px;
+      height: 10px;
+
+      background: rgba(100, 100, 100, 0.2);
+    }
+    &::-webkit-scrollbar-thumb {
+      background: #5a5a5a !important;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+}
+.theme-light {
+  .assumptions-grid {
+    .ReactVirtualized__Grid__innerScrollContainer {
+      border-bottom: 1px solid #dddddd;
+    }
+  }
+}

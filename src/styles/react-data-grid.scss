@@ -1,0 +1,388 @@
+.MuiBox-root {
+  .data-grid-container {
+    .data-grid {
+      .data-body {
+        .cell {
+          cursor: default;
+          background-color: rgba($color: #000, $alpha: 0.05);
+          &.readonly-color,
+          &.model-label {
+            background-color: transparent;
+          }
+          &.text-right {
+            text-align: right;
+          }
+          &:hover {
+            border-color: #f3f3f3 !important;
+            box-shadow: none;
+            &.header-cell {
+              border-color: #dddddd !important;
+              border-bottom-color: transparent;
+              // background-color: rgba(0, 0, 0, 0.09);
+            }
+          }
+          min-height: 32px;
+          padding: 4px;
+
+          line-height: 21px;
+          &.serial-number {
+            background-color: transparent;
+          }
+        }
+      }
+      .cell {
+        text-align: left;
+        border-top-color: #dddddd;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: #dddddd;
+        &.header-cell {
+          background-color: #fff;
+          box-shadow: none;
+        }
+        &.selected {
+          box-shadow: none;
+        }
+        &.row-use-as-heading {
+          background-color: transparent;
+        }
+        .data-editor {
+          padding: 0;
+
+          font-size: 14px;
+          font-family: Roboto;
+          text-align: left;
+          color: #000000;
+        }
+      }
+      .data-header,
+      .data-body {
+        .cell {
+          &:last-child {
+            border-right: 1px solid #dddddd;
+          }
+        }
+      }
+      .data-row {
+        &:last-child {
+          .cell {
+            border-bottom: 1px solid #dddddd;
+          }
+        }
+      }
+      .value-viewer {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      }
+    }
+  }
+}
+.amt-record-field {
+  &.MuiBox-root {
+    .data-grid-container {
+      .data-grid {
+        .cell {
+          background-color: #ffffff;
+          &.header-cell {
+            background-color: #e8e8e8;
+          }
+        }
+      }
+    }
+  }
+}
+.theme-dark {
+  .MuiBox-root {
+    .data-grid-container {
+      .data-grid {
+        .data-body {
+          .cell {
+            background-color: rgba(255, 255, 255, 0.05);
+            &.readonly-color,
+            &.model-label {
+              background-color: transparent;
+            }
+            &.forecast-color {
+              background-color: rgba($color: #fff, $alpha: 0.05) !important;
+            }
+            &:hover {
+              border-color: #018786 !important;
+              box-shadow: none;
+              // &.header-cell {
+              //   border-color: #dddddd !important;
+              //   border-bottom-color: transparent !important;
+              // }
+            }
+            &.serial-number {
+              background-color: transparent;
+              &:hover,
+              &.selected {
+                border-color: #018786 !important;
+              }
+            }
+            &.highlight,
+            &.selected {
+              background-color: #1b2524 !important;
+            }
+          }
+          .highlight-selected {
+            border: 1px solid #018786;
+          }
+          .highlight-top {
+            border-top-color: #018786;
+          }
+          .highlight-left {
+            border-left-color: #018786;
+          }
+          .highlight-bottom {
+            border-bottom-color: #018786;
+          }
+          .highlight-right {
+            border-right-color: #018786;
+          }
+          .cell {
+            &:last-child {
+              &.highlight-right,
+              &.highlight-selected {
+                border-right-color: #018786;
+              }
+            }
+          }
+        }
+        .data-row {
+          &:last-child {
+            .cell {
+              &.highlight-selected,
+              &.highlight-bottom {
+                border-bottom-color: #018786;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.theme-yellow {
+  .MuiBox-root {
+    .data-grid-container {
+      .data-grid {
+        .data-body {
+          .cell {
+            background-color: rgba(255, 255, 255, 0.09);
+            &.readonly-color,
+            &.model-label {
+              background-color: transparent;
+            }
+            &.forecast-color {
+              background-color: rgba($color: #fff, $alpha: 0.05) !important;
+            }
+            &:hover {
+              border-color: rgba(255, 192, 1, 0.6) !important;
+              box-shadow: none;
+              // &.header-cell {
+              //   border-color: #dddddd !important;
+              //   border-bottom-color: transparent !important;
+              // }
+            }
+            &.serial-number {
+              background-color: transparent;
+              &:hover,
+              &.selected {
+                border-color: rgba(255, 192, 1, 0.6) !important;
+              }
+            }
+            &.highlight,
+            &.selected {
+              background-color: rgba(255, 192, 1, 0.07) !important;
+            }
+          }
+          .highlight-selected {
+            border: 1px solid rgba(255, 192, 1, 0.6);
+          }
+          .highlight-top {
+            border-top-color: rgba(255, 192, 1, 0.6);
+          }
+          .highlight-left {
+            border-left-color: rgba(255, 192, 1, 0.6);
+          }
+          .highlight-bottom {
+            border-bottom-color: rgba(255, 192, 1, 0.6);
+          }
+          .highlight-right {
+            border-right-color: rgba(255, 192, 1, 0.6);
+          }
+          .cell {
+            &:last-child {
+              &.highlight-right,
+              &.highlight-selected {
+                border-right-color: rgba(255, 192, 1, 0.6);
+              }
+            }
+          }
+        }
+        .data-row {
+          &:last-child {
+            .cell {
+              &.highlight-selected,
+              &.highlight-bottom {
+                border-bottom-color: rgba(255, 192, 1, 0.6);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.theme-light {
+  .MuiBox-root {
+    .data-grid-container {
+      .data-grid {
+        .data-body {
+          .cell {
+            &.forecast-color {
+              background-color: rgba($color: #000, $alpha: 0.05) !important;
+            }
+            &:hover {
+              border-color: #41aefc !important;
+              box-shadow: none;
+              &.header-cell {
+                border-color: #dddddd !important;
+                border-bottom-color: transparent !important;
+              }
+            }
+            &.row-use-as-heading {
+              &.selected,
+              &:hover {
+                border-top-color: #ddd !important;
+                border-bottom-color: transparent !important;
+              }
+            }
+            &.serial-number {
+              &:hover,
+              &.selected {
+                border-color: #41aefc !important;
+              }
+            }
+            &.highlight,
+            &.selected {
+              background-color: #f4faff !important;
+            }
+          }
+          .highlight-selected {
+            border: 1px solid #41aefc;
+          }
+          .highlight-top {
+            border-top-color: #41aefc;
+          }
+          .highlight-left {
+            border-left-color: #41aefc;
+          }
+          .highlight-bottom {
+            border-bottom-color: #41aefc;
+          }
+          .highlight-right {
+            border-right-color: #41aefc;
+          }
+          .cell {
+            &:last-child {
+              &.highlight-right,
+              &.highlight-selected {
+                border-right-color: #41aefc;
+              }
+            }
+          }
+        }
+        .data-row {
+          &:last-child {
+            .cell {
+              &.highlight-selected,
+              &.highlight-bottom {
+                border-bottom-color: #41aefc;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.theme-dark,
+.theme-yellow {
+  .MuiBox-root {
+    .data-grid-container {
+      .data-grid {
+        .cell {
+          border-top-color: rgba(255, 255, 255, 0.12);
+          border-left-color: rgba(255, 255, 255, 0.12);
+          &.header-cell {
+            background-color: #191919;
+          }
+          &.forecast-color {
+            background-color: #1f3734 !important;
+          }
+          &.row-use-as-heading {
+            background-color: transparent;
+            &.selected,
+            &:hover {
+              border-top-color: rgba(255, 255, 255, 0.12) !important;
+              border-bottom-color: transparent !important;
+            }
+          }
+          .data-editor {
+            color: #ffffff;
+          }
+        }
+        .data-header,
+        .data-body {
+          .cell {
+            &:last-child {
+              border-right: 1px solid rgba(255, 255, 255, 0.12);
+            }
+          }
+        }
+        .data-row {
+          &:last-child {
+            .cell {
+              border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+            }
+          }
+        }
+      }
+      .data-body {
+        .cell {
+          &:hover {
+            &.header-cell {
+              border-color: rgba(255, 255, 255, 0.12) !important;
+              border-bottom-color: transparent !important;
+            }
+          }
+        }
+      }
+    }
+  }
+  .amt-record-field {
+    &.MuiBox-root {
+      .data-grid-container {
+        .data-grid {
+          .cell {
+            background-color: rgba(0, 0, 0, 0.09);
+            &.header-cell {
+              background-color: #191919;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.model-grid,
+.amt-record-field {
+  .disabled {
+    opacity: 1;
+  }
+}

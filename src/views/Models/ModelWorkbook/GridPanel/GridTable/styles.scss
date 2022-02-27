@@ -1,0 +1,236 @@
+.model-grid {
+  font-size: 13px;
+  height: 100%;
+  .dragable-cell {
+    background-color: inherit;
+  }
+  .header-cell {
+    display: flex !important;
+    align-items: center;
+  }
+  .cell {
+    display: inline-block;
+    max-height: 32px;
+    input {
+      margin-top: 2px;
+
+      letter-spacing: 0.01071em;
+    }
+    .label-cell {
+      // background-color: inherit;
+      .error {
+        color: red !important;
+
+        opacity: 0.8;
+      }
+    }
+    .refresh {
+      color: #00b398;
+    }
+  }
+  .ReactVirtualized__Grid {
+    &::-webkit-scrollbar {
+      width: 10px;
+      height: 10px;
+
+      background: rgba(100, 100, 100, 0.2);
+    }
+    &::-webkit-scrollbar-thumb {
+      background: #5a5a5a !important;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+  .ReactVirtualized__Grid__innerScrollContainer {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  }
+  .cell.updated {
+    background-color: inherit !important;
+
+    transition: unset !important;
+  }
+  // .cell {
+  //   &:hover {
+  //     .mapping-actions {
+  //       background-color: #fff;
+  //       visibility: visible;
+  //     }
+  //     &.selected {
+  //       .mapping-actions {
+  //         background-color: #fff;
+  //       }
+  //     }
+  //   }
+  //   .cell-with-right-action {
+  //     max-width: 90%;
+  //   }
+  // }
+}
+.cell {
+  &:hover {
+    .mapping-actions {
+      background-color: inherit;
+      visibility: visible;
+    }
+    &.selected {
+      .mapping-actions {
+        background-color: inherit;
+      }
+    }
+  }
+  .cell-with-right-action {
+    max-width: 86%;
+  }
+}
+.serial-number.sr-error {
+  background-color: rgba(217, 83, 79, 0.09) !important;
+}
+.mapping-actions {
+  position: absolute;
+  top: 0;
+  right: 1px;
+  bottom: 1px;
+
+  margin-top: 1px;
+  padding: 2px 8px;
+
+  text-align: right;
+
+  visibility: hidden;
+}
+.MuiBox-root .data-grid-container .data-grid .cell .data-editor {
+  font-size: 13px;
+}
+.model-compact {
+  &.model-grid {
+    font-size: 12px;
+    height: 100%;
+  }
+  .data-grid-container .data-grid .cell .data-editor {
+    font-size: 12px;
+  }
+  .data-grid-container .data-grid .data-body .cell {
+    padding: 4px 5px;
+  }
+  .data-grid-container .data-grid .data-body .cell .forecast-text {
+    padding-left: 26px;
+  }
+  .header-cell {
+    .MuiIconButton-label {
+      svg {
+        width: 23px;
+        height: 23px;
+      }
+    }
+  }
+}
+.model-comfortable {
+  &.model-grid {
+    font-size: 14px;
+    height: 100%;
+  }
+  .data-grid-container .data-grid .cell .data-editor {
+    font-size: 14px;
+  }
+}
+.header-context-menu {
+  position: absolute;
+  top: 8px;
+  right: 0;
+
+  visibility: hidden;
+}
+.header-cell {
+  &:hover {
+    .header-context-menu {
+      visibility: visible;
+    }
+  }
+}
+.cell-formula-error {
+  // &:after {
+  //   content: '';
+  //   position: absolute;
+  //   border: 1px solid #f44336;
+  //   left: 0;
+  //   right: 0;
+  // }
+  &:before {
+    content: '';
+    position: absolute;
+    border: 1px solid #f44336;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+  }
+  .cell {
+    &:after {
+      content: '';
+      position: absolute;
+      border: 1px solid #f44336;
+      top: 0;
+      bottom: 0;
+      right: 0;
+    }
+    &:before {
+      content: '';
+      position: absolute;
+      border: 1px solid #f44336;
+      top: 0;
+      bottom: 0;
+      left: 0;
+    }
+  }
+}
+.theme-light {
+  .model-grid {
+    .ReactVirtualized__Grid__innerScrollContainer {
+      border-bottom: 1px solid #dddddd;
+    }
+  }
+  .cell {
+    .refresh {
+      color: #0094ff;
+    }
+  }
+}
+.theme-yellow {
+  .cell {
+    .refresh {
+      color: #ffc001;
+    }
+  }
+}
+// .theme-dark {
+//   .model-grid {
+//     .cell {
+//       .mapping-actions {
+//         background-color: #1c1c1c;
+//       }
+//       &:hover {
+//         &.selected {
+//           .mapping-actions {
+//             background-color: #1c1c1c;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+// .theme-yellow {
+//   .model-grid {
+//     .cell {
+//       .mapping-actions {
+//         background-color: #25262c;
+//       }
+//       &:hover {
+//         &.selected {
+//           .mapping-actions {
+//             background-color: #25262c;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }

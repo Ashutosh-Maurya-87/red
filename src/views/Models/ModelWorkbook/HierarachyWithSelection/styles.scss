@@ -1,0 +1,26 @@
+.folder-icon {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+  margin-left: -5px;
+
+  vertical-align: middle;
+}
+@for $i from 1 through 20 {
+  .level-#{$i} {
+    padding-left: ($i)*23px;
+  }
+}
+.MuiTypography-root.MuiFormControlLabel-label {
+  font-size: 14px;
+}
+.hierarchy-search-enable {
+  @for $i from 1 through 20 {
+    .level-#{$i} {
+      padding-left: 6px;
+    }
+  }
+}
+.highlight-search {
+  background-color: #545417;
+}

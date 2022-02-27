@@ -1,0 +1,4 @@
+const PREFIX = '/reducres/Dimensions/';
+
+export const CREATE_DIMENSION_MODAL = `${PREFIX}CREATE_DIMENSION_MODAL`;
+export const SET_SELECTED_TABLE = `${PREFIX}SET_SELECTED_TABLE`;

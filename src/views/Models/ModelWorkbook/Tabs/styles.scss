@@ -1,0 +1,67 @@
+.model-tab {
+  position: relative;
+
+  display: inline-flex;
+  align-items: center;
+  height: 36px;
+
+  font-size: 14px;
+  white-space: nowrap;
+
+  background-color: #1e1e1e;
+  opacity: 0.7;
+  div {
+    cursor: pointer;
+  }
+  &.active {
+    color: #00b398;
+
+    opacity: 1;
+  }
+  &.add-tab {
+    padding-top: 0;
+  }
+  .inline-rename-form {
+    input {
+      min-width: 120px;
+      max-width: 180px;
+      height: 24px;
+      padding: 0 5px;
+    }
+  }
+  button {
+    position: absolute;
+    top: 4px;
+    right: 0;
+
+    visibility: hidden;
+  }
+  &:hover {
+    button {
+      visibility: visible;
+    }
+  }
+}
+.theme-light {
+  .model-tab {
+    background-color: #ffffff;
+    &.active {
+      color: #0094ff;
+    }
+  }
+}
+.theme-yellow {
+  .model-tab {
+    background-color: #25262c;
+    &.active {
+      color: #ffc001;
+    }
+  }
+}
+.theme-dark {
+  .tab-menu-popover {
+    .MuiPopover-paper {
+      background-color: #292929;
+    }
+  }
+}

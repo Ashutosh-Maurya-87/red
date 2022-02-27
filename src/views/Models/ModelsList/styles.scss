@@ -1,0 +1,68 @@
+.MuiIconButton-root.modal-list-active {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+.theme-light {
+  .MuiIconButton-root.modal-list-active {
+    background-color: rgba(0, 0, 0, 0.04);
+  }
+}
+.last-executed-status {
+  svg {
+    margin-right: 2px;
+  }
+  &.completed {
+    color: #2fa12d;
+  }
+  &.progress {
+    color: #ff9900;
+  }
+  &.error {
+    color: #d34747;
+  }
+  &.animate-icon {
+    animation: rotation 2s infinite linear;
+  }
+}
+.source-table-title {
+  .last-executed-status {
+    svg {
+      margin-bottom: -5px;
+    }
+  }
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+.status-label {
+  position: absolute;
+  right: 2px;
+  bottom: 12px;
+
+  height: 20px;
+  padding: 3px 6px;
+
+  font-size: 11px;
+  text-align: center;
+
+  border-radius: 3px;
+  &.completed {
+    svg {
+      fill: #2fa12d;
+    }
+  }
+  &.progress {
+    svg {
+      fill: #ff9900;
+    }
+  }
+  &.error {
+    svg {
+      fill: #d34747;
+    }
+  }
+}

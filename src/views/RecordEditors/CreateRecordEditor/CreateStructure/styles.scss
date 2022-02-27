@@ -1,0 +1,65 @@
+#record-editor-builder {
+  .empty-drag-drop-dialog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .record-editor-drop {
+    min-height: 72vh;
+  }
+  .record-field {
+    width: 100%;
+    padding: 9px;
+    overflow: hidden;
+
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    .field-delete-btn {
+      position: absolute;
+      top: -12px;
+      right: -12px;
+
+      display: none;
+    }
+    &:hover {
+      .field-delete-btn {
+        display: block;
+      }
+    }
+  }
+  .react-resizable {
+    display: inline-flex;
+    margin-right: 24px;
+    margin-bottom: 24px;
+  }
+  .record-field.disabled {
+    opacity: 0.5;
+  }
+}
+.record-editor-drop {
+  border: 2px dashed transparent;
+}
+.theme-dark {
+  .active-dragging {
+    border-color: rgba(0, 179, 152, 0.5);
+  }
+}
+.theme-yellow {
+  .active-dragging {
+    border-color: rgba(255, 192, 1, 0.3);
+  }
+}
+.theme-light {
+  .active-dragging {
+    border-color: rgba(0, 148, 255, 0.2);
+  }
+  #record-editor-builder {
+    .record-field {
+      border: 1px solid rgba(0, 0, 0, 0.23);
+    }
+  }
+}

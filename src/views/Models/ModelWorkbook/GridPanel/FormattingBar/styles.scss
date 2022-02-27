@@ -1,0 +1,71 @@
+.grid-format-bar {
+  .MuiFormControl-root {
+    label {
+      font-size: 12px;
+    }
+    .MuiInputBase-root {
+      padding: 0 !important;
+      input {
+        padding: 0;
+
+        font-size: 12px;
+      }
+      button {
+        right: 0;
+      }
+    }
+  }
+  .MuiAutocomplete-root .MuiFormControl-root {
+    .MuiInputBase-root {
+      input {
+        padding: 8.5px 6px;
+      }
+    }
+  }
+  .action-disabled {
+    opacity: 0.5;
+  }
+  .format-divider {
+    height: 25px;
+    margin: 0 5px;
+
+    border-left: 1px solid rgba($color: #ffffff, $alpha: 0.12);
+  }
+  .formula-bar {
+    flex: auto;
+    .MuiTextField-root {
+      flex: auto;
+      margin: 0 5px;
+      input {
+        padding: 8.5px 8px;
+      }
+    }
+  }
+}
+.grid-formatting-icons {
+  border-radius: 2px;
+  &:hover {
+    background-color: rgba(13, 130, 121, 0.5);
+  }
+}
+.theme-yellow {
+  .grid-formatting-icons {
+    &:hover {
+      background-color: rgba(255, 192, 1, 0.5);
+    }
+  }
+}
+.theme-light {
+  .format-divider {
+    border-left: 1px solid rgba($color: #000000, $alpha: 0.12);
+  }
+  .grid-formatting-icons {
+    &:hover {
+      background-color: rgba(0, 148, 255, 0.2);
+    }
+  }
+}
+
+.custom-rgb-block .flexbox-fix {
+  display: none !important;
+}

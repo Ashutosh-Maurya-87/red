@@ -1,0 +1,53 @@
+.translate-drag-col {
+  @for $i from 2 through 20 {
+    .level-#{$i} {
+      padding-left: ($i)*18px!important;
+      > div {
+        &:after {
+          left: -7px;
+        }
+      }
+    }
+  }
+}
+.MuiChip-root.mapping-chip {
+  .MuiChip-deleteIcon {
+    color: #d9534f;
+  }
+}
+.delete-shared-mapping {
+  text-align: left !important;
+  p {
+    font-size: 14px;
+  }
+}
+.theme-dark {
+  .MuiChip-root.mapping-chip {
+    background-color: #292929;
+    &:focus {
+      background-color: #292929;
+    }
+    &:hover {
+      background-color: lighten($color: #292929, $amount: 5%);
+    }
+  }
+}
+.theme-yellow {
+  .MuiChip-root.mapping-chip {
+    background-color: #131313;
+    &:focus {
+      background-color: #131313;
+    }
+    &:hover {
+      background-color: lighten($color: #131313, $amount: 5%);
+    }
+  }
+}
+
+.read-only-mode {
+  position: absolute;
+  top: 0;
+
+  width: 100%;
+  height: 100%;
+}

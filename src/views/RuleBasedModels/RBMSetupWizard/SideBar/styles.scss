@@ -1,0 +1,21 @@
+.sidebar-menu {
+  margin: 10px 0;
+
+  border-radius: 10px;
+  .menu-link {
+    width: 100%;
+
+    font-size: 14px;
+  }
+  &.selected {
+    background-color: rgba(0, 0, 0, 0.12);
+  }
+}
+.rbm-sidebar {
+  background-color: rgba(0, 0, 0, 0.17);
+}
+.theme-light {
+  .rbm-sidebar {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+}

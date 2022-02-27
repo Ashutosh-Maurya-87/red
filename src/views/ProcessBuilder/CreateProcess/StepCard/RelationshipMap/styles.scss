@@ -1,0 +1,55 @@
+.relationship-map-node {
+  .relationship-map > :first-child {
+    width: 100%;
+    height: 100%;
+
+    :first-child {
+      max-width: 165px;
+    }
+  }
+
+  .relationship-map {
+    margin-bottom: 16px;
+    overflow: auto;
+    overflow: auto;
+  }
+
+  .rl-link-circle {
+    z-index: 2;
+  }
+
+  .map-label {
+    display: block;
+    width: 145px;
+    max-width: 145px !important;
+
+    & div {
+      max-height: 18px;
+      overflow: hidden;
+
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+
+    &.port-conneted {
+      font-weight: 600;
+    }
+  }
+
+  .custom-port {
+    position: absolute;
+    left: 0;
+
+    width: 100%;
+
+    cursor: grab;
+  }
+
+  // svg {
+  //   z-index: 2;
+  // }
+}
+
+.relationship-scroll {
+  position: inherit !important;
+}

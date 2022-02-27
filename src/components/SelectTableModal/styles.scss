@@ -1,0 +1,16 @@
+.select-table-tab {
+  .MuiTabs-flexContainer {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  }
+  .MuiTab-root {
+    font-weight: normal;
+    text-transform: none;
+  }
+}
+.theme-light {
+  .select-table-tab {
+    .MuiTabs-flexContainer {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    }
+  }
+}

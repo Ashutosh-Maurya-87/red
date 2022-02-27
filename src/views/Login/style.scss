@@ -1,0 +1,30 @@
+body {
+  background-color: #292929;
+}
+.login-signup-form {
+  margin: auto;
+
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.login-img {
+  width: 100%;
+}
+.terms-modal {
+  .MuiDialog-paperFullWidth {
+    max-width: 750px;
+  }
+}
+
+.theme-dark,
+.theme-yellow {
+  .dialogTitleLogin {
+    color: #fff;
+  }
+}
+
+.theme-light {
+  .dialogTitleLogin {
+    color: #000;
+  }
+}

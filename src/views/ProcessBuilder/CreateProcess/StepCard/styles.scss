@@ -1,0 +1,209 @@
+.step-header {
+  padding: 5px 20px;
+  .step-edit {
+    margin-right: 5px;
+    .MuiOutlinedInput-input {
+      padding: 10px 14px;
+    }
+  }
+}
+.step-header-table {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  @media(max-width: 992px) {
+    flex-direction: column;
+    p {
+      overflow: hidden;
+
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+  }
+}
+.select-option {
+  min-height: 20px;
+}
+.MuiFormControl-root.bg-select {
+  min-width: 100px;
+  .MuiInput-underline {
+    &:before,
+    &:after {
+      border: none !important;
+    }
+  }
+  .MuiInputBase-input {
+    padding: 14px 10px 14px;
+    &:focus {
+      background-color: transparent;
+    }
+  }
+}
+
+.theme-dark {
+  .toggle-group {
+    .MuiToggleButton-root {
+      background-color: #191919;
+    }
+  }
+  .process-step-icon {
+    background-color: #303030;
+    border: 3px solid #1e1e1e;
+    > span {
+      background-color: #1e1e1e;
+    }
+  }
+}
+
+.toggle-group {
+  .MuiToggleButton-root {
+    min-width: 54px;
+    height: 26px;
+
+    background-color: #ffffff;
+    border-radius: 20px;
+
+    transition: 0.2s ease-in-out;
+    &:first-child {
+      margin-right: 1px;
+    }
+    &:hover {
+      color: #ffffff;
+
+      background-color: #00b398;
+    }
+  }
+  .MuiToggleButton-root.Mui-selected {
+    color: #ffffff;
+
+    background-color: #00b398;
+    &:hover {
+      background-color: #00b398;
+    }
+  }
+}
+.relation-border {
+  position: relative;
+  &:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -16px;
+
+    height: 50%;
+
+    border-left: 1px solid #00b398;
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -16px;
+
+    width: 15px;
+    height: 50%;
+
+    border-bottom: 1px solid #00b398;
+    border-left: 1px solid #00b398;
+  }
+  @media(max-width: 1150px) {
+    margin-bottom: 10px;
+    padding: 0 15px 10px;
+
+    background-color: rgba(255,255,255,0.04);
+    border-radius: 4px;
+    &:before,
+    &:after {
+      border: none;
+    }
+  }
+}
+.relation-border {
+  &:last-child {
+    &:before {
+      border: none;
+    }
+  }
+  &:first-child {
+    &:after {
+      border-left: none;
+    }
+  }
+  &.no-border {
+    &:after,
+    &:before {
+      border: none;
+    }
+  }
+}
+.group-box {
+  background-color: rgba(255, 255, 255, 0.04);
+  border-radius: 4px;
+  @media(max-width: 1150px) {
+    padding-left: 0 !important;
+
+    background-color: transparent;
+  }
+}
+.theme-light {
+  .group-box {
+    background-color: rgba(0, 0, 0, 0.04);
+  }
+  .relation-border {
+    &:before,
+    &:after {
+      border-color: #41aefc;
+    }
+  }
+  .toggle-group {
+    .MuiToggleButton-root {
+      &:hover {
+        color: #ffffff;
+
+        background-color: #0094ff;
+      }
+    }
+    .MuiToggleButton-root.Mui-selected {
+      background-color: #0094ff;
+      &:hover {
+        background-color: #0094ff;
+      }
+    }
+  }
+}
+.theme-yellow {
+  .process-step-icon {
+    background-color: #1b1c22;
+    border: 3px solid #292929;
+    > span {
+      background-color: #1e1e1e;
+    }
+  }
+  .relation-border {
+    &:before,
+    &:after {
+      border-color: #514004;
+    }
+  }
+  .toggle-group {
+    .MuiToggleButton-root {
+      background-color: #191919;
+      &:hover {
+        color: #000000;
+
+        background-color: #ffc001;
+      }
+    }
+    .MuiToggleButton-root.Mui-selected {
+      color: #000000;
+
+      background-color: #ffc001;
+      &:hover {
+        color: #000000;
+
+        background-color: #ffc001;
+      }
+    }
+  }
+}

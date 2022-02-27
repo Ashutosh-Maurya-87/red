@@ -1,0 +1,10 @@
+const PREFIX = '/reducres/FinancialEnvSetup/';
+
+export const SET_IS_FETCHING = `${PREFIX}SET_IS_FETCHING`;
+export const CLEAR_DATA = `${PREFIX}CLEAR_DATA`;
+
+export const SET_ACTIVE_TAB = `${PREFIX}SET_ACTIVE_TAB`;
+export const SET_ACTUAL_TABLE = `${PREFIX}SET_ACTUAL_TABLE`;
+export const SET_ACTUAL_TABLE_INPUTS = `${PREFIX}SET_ACTUAL_TABLE_INPUTS`;
+export const SET_GL_ACCOUNTS = `${PREFIX}SET_GL_ACCOUNTS`;
+export const SET_GL_ACCOUNTS_META = `${PREFIX}SET_GL_ACCOUNTS_META`;

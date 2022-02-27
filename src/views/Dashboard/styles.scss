@@ -1,0 +1,144 @@
+svg {
+  width: 100%;
+}
+.animation-container {
+  margin: auto;
+  padding: 50px;
+}
+.cls-1,
+.cls-6 {
+  opacity: 0.1;
+}
+.cls-2 {
+  fill: url(#linear-gradient);
+}
+.cls-3,
+.cls-7 {
+  opacity: 0.3;
+}
+.cls-4 {
+  fill: url(#linear-gradient-2);
+}
+.cls-5 {
+  fill: #00b398;
+}
+.cls-10,
+.cls-6,
+.cls-7 {
+  fill: #0094ff;
+}
+.cls-8 {
+  fill: #7650d6;
+}
+.cls-9 {
+  font-size: 18.26px;
+  font-family: Roboto-Regular, Roboto;
+}
+.cls-19,
+.cls-21,
+.cls-26,
+.cls-9 {
+  fill: #fff;
+}
+.cls-11 {
+  fill: #ed972f;
+}
+.cls-18 {
+  fill: #2ca01c;
+}
+.cls-20 {
+  fill: #00a1e0;
+}
+.cls-20,
+.cls-21 {
+  fill-rule: evenodd;
+}
+.cls-22 {
+  fill: #d7d8d9;
+}
+.cls-23 {
+  fill: #ea1b22;
+}
+.cls-24 {
+  fill: #00de00;
+}
+.cls-25 {
+  fill: #78d2c4;
+}
+.cls-26 {
+  font-size: 34.32px;
+  font-family: Roboto-Bold, Roboto;
+  font-weight: 700;
+}
+.cls-27 {
+  letter-spacing: -0.01em;
+}
+.cls-28 {
+  letter-spacing: -0.02em;
+}
+.cls-29 {
+  fill: #0066da;
+}
+.cls-30 {
+  fill: #00ac47;
+}
+.cls-31 {
+  fill: #ea4335;
+}
+.cls-32 {
+  fill: #00832d;
+}
+.cls-33 {
+  fill: #2684fc;
+}
+.cls-34 {
+  fill: #ffba00;
+}
+.cls-35 {
+  fill: #1fc0e7;
+}
+.cls-36 {
+  fill: none;
+  //   stroke: #0094ff;
+  stroke-miterlimit: 10;
+}
+.cls-37 {
+  fill: #eceff1;
+}
+.cls-38 {
+  fill: #388e3c;
+}
+.cls-39 {
+  fill: #2e7d32;
+}
+.cls-40 {
+  fill: #fafafa;
+}
+.cls-41 {
+  fill: #00b398;
+}
+.cls-42 {
+  fill: #78d2c4;
+}
+.cls-43 {
+  fill: #f1f1f1;
+}
+.theme-dark,
+.theme-yellow {
+  .cls-25 {
+    fill: #00b398;
+  }
+  .cls-5 {
+    fill: #1a7466;
+  }
+}
+.theme-dark {
+  .cls-43 {
+    fill: #303030;
+  }
+}
+.theme-yellow {
+  .cls-43 {
+    fill: #1b1c22;
+  }
+}

@@ -1,0 +1,61 @@
+.complete-signup-form {
+  margin: auto;
+  padding: 30px;
+
+  background-color: #ffffff;
+  border-radius: 10px;
+  .close-panel {
+    float: right;
+
+    cursor: pointer;
+  }
+  .MuiMobileStepper-progress {
+    width: 100%;
+    height: 8px;
+  }
+  .MuiLinearProgress-bar {
+    border-radius: 5px;
+  }
+  .avatar-badge {
+    box-shadow: none;
+    &:active {
+      box-shadow: none;
+    }
+  }
+  .color-theme {
+    width: 142px;
+    height: 107px;
+    margin: 35px 60px;
+
+    text-align: center;
+
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .bg-dark {
+    color: #ffffff;
+
+    background-color: #292929;
+  }
+  .bg-light {
+    color: #000000;
+
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  .bg-yellow {
+    color: #000000;
+
+    background-color: #ffc001;
+  }
+  .active-theme {
+    cursor: default;
+  }
+  .edit-profile-img {
+    height: 128px;
+    width: 128px;
+    border-radius: 50%;
+    padding: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,140 @@
+.data-type-popover {
+  .data-type-note {
+    max-width: 238px;
+
+    line-height: 1.2;
+  }
+}
+
+.date-select {
+  width: 100%;
+}
+
+.data-grid-container {
+  .data-grid {
+    .data-header {
+      overflow: hidden;
+      .cell {
+        padding-right: 4px;
+        img,
+        svg {
+          vertical-align: middle;
+        }
+      }
+    }
+    .data-body {
+      .action-cell {
+        padding: 0;
+
+        text-align: center;
+      }
+    }
+    .cell {
+      .data-viewer {
+        line-height: 24px;
+      }
+      &.read-only {
+        text-align: left;
+        color: inherit;
+
+        background: transparent;
+      }
+      input {
+        height: 100%;
+
+        border: 0;
+      }
+    }
+  }
+}
+
+.theme-dark {
+  .create-table {
+    .preview-table {
+      .data-grid-container {
+        .data-grid {
+          .data-body {
+            .highlight {
+              background-color: #1b2524;
+            }
+            .highlight-selected {
+              border: 1px solid #018786;
+            }
+            .highlight-top {
+              border-top-color: #018786;
+            }
+            .highlight-left {
+              border-left-color: #018786;
+            }
+            .highlight-bottom {
+              border-bottom-color: #018786;
+            }
+            .highlight-right {
+              border-right-color: #018786;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.theme-yellow {
+  .create-table {
+    .preview-table {
+      .data-grid-container {
+        .data-grid {
+          .data-body {
+            .highlight {
+              background-color: rgba(255,192,1,0.07);
+            }
+            .highlight-selected {
+              border: 1px solid rgba(255,192,1,0.6);
+            }
+            .highlight-top {
+              border-top-color: rgba(255,192,1,0.6);
+            }
+            .highlight-left {
+              border-left-color: rgba(255,192,1,0.6);
+            }
+            .highlight-bottom {
+              border-bottom-color: rgba(255,192,1,0.6);
+            }
+            .highlight-right {
+              border-right-color: rgba(255,192,1,0.6);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.theme-light {
+  .create-table {
+    .preview-table {
+      .data-grid-container {
+        .data-grid {
+          .data-body {
+            .highlight {
+              background-color: #f4faff;
+            }
+            .highlight-selected {
+              border: 1px solid #41aefc;
+            }
+            .highlight-top {
+              border-top-color: #41aefc;
+            }
+            .highlight-left {
+              border-left-color: #41aefc;
+            }
+            .highlight-bottom {
+              border-bottom-color: #41aefc;
+            }
+            .highlight-right {
+              border-right-color: #41aefc;
+            }
+          }
+        }
+      }
+    }
+  }
+}

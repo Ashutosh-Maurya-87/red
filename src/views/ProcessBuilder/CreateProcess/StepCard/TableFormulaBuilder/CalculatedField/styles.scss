@@ -1,0 +1,59 @@
+.calculation-wrap {
+  min-width: calc(100% - 350px);
+  max-width: calc(100% - 350px);
+  min-height: 100px;
+  min-height: 120px;
+  margin: 10px 0;
+  padding: 5px;
+
+  border: 1px solid #7f7f7f;
+  border-radius: 4px;
+  @media(max-width: 1300px) {
+    min-width: 100%;
+    max-width: 100%;
+  }
+  .disable-operator {
+    cursor: not-allowed !important;
+    opacity: 0.3;
+  }
+
+  .operators-list {
+    padding: 6px 14px;
+
+    background: rgba(255,255,255,0.12);
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .delete-fx-icon {
+    margin-left: 20px;
+
+    cursor: pointer;
+  }
+
+  .formula-input {
+    width: 150px;
+    .MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"][class*="MuiOutlinedInput-marginDense"] {
+      padding: 3px;
+    }
+  }
+
+  .formula-fix-list {
+    display: flex;
+    align-items: center;
+  }
+
+  .formula-fx-box {
+    .MuiButton-label {
+      white-space: nowrap;
+    }
+  }
+}
+.theme-light {
+  .calculation-wrap {
+    border-color: rgba(0, 0, 0, 0.23);
+    .operators-list {
+      background: #e8e8e8;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+const PREFIX = '/reducres/FinancialEnvSetup/GLAccountListing/';
+
+export const CLEAR_DATA = `${PREFIX}CLEAR_DATA`;
+
+export const SET_GL_ACCOUNT_LISTING = `${PREFIX}SET_GL_ACCOUNT_LISTING`;
+export const SET_GL_HIERARCHY_LISTING = `${PREFIX}SET_GL_HIERARCHY_LISTING`;
+export const SET_SELECTED_FOLDER = `${PREFIX}SET_SELECTED_FOLDER`;
+export const ADD_GL_ACCOUNT = `${PREFIX}ADD_GL_ACCOUNT`;
+
+export const SET_HEADERS = `${PREFIX}SET_HEADERS`;
+export const GET_HEADERS = `${PREFIX}GET_HEADERS`;

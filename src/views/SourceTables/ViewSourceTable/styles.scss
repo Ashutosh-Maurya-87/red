@@ -1,0 +1,122 @@
+.virtualized-data-sheet {
+  padding: 10px 24px;
+  .GridRow {
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+  }
+  .GridColumn {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+  }
+  .LeftSideGridContainer {
+    z-index: 10;
+
+    flex: 0 0 75px;
+  }
+
+  .LeftSideGrid {
+    overflow: hidden !important;
+  }
+  .HeaderGrid {
+    width: 100%;
+    overflow: hidden !important;
+  }
+  .BodyGrid {
+    width: 100%;
+  }
+  .cell,
+  .headerCell,
+  .leftCell {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    padding-right: 7px;
+
+    text-align: center;
+    color: rgba(0, 0, 0, 0.87);
+
+    background-color: #ffffff;
+    border-bottom: 1px solid #dddddd;
+    border-left: 1px solid #dddddd;
+  }
+  .headerCell {
+    background-color: #eef7ed;
+    border-top: 1px solid #dddddd;
+    img,
+    svg {
+      vertical-align: middle;
+    }
+  }
+  .cell {
+    padding: 7px 15px;
+    overflow: hidden;
+
+    text-align: left;
+  }
+  .scrollbar-custom-view {
+    background-color: #fafafa !important;
+  }
+  .ReactVirtualized__Grid__innerScrollContainer {
+    border-right: 1px solid #dddddd;
+  }
+}
+.theme-dark,
+.theme-yellow {
+  .virtualized-data-sheet {
+    .cell,
+    .headerCell,
+    .leftCell {
+      border-bottom: 1px solid #383838;
+      border-left: 1px solid #383838;
+    }
+    .headerCell {
+      border-top: 1px solid #383838;
+    }
+    .cell,
+    .leftCell {
+      color: #e1e1e1;
+
+      background-color: #1d1d1d;
+    }
+    .scrollbar-custom-view {
+      background-color: #303030 !important;
+    }
+    .ReactVirtualized__Grid__innerScrollContainer {
+      border-right: 1px solid #383838;
+    }
+  }
+}
+.theme-dark {
+  .virtualized-data-sheet {
+    .headerCell {
+      color: #e1e1e1;
+
+      background-color: #1f3734;
+    }
+  }
+}
+.theme-yellow {
+  .virtualized-data-sheet {
+    .headerCell {
+      color: #f6a822;
+
+      background-color: #413a1f;
+    }
+  }
+}
+.theme-light {
+  .virtualized-data-sheet {
+    .headerCell {
+      color: #0094ff;
+
+      background-color: #dcefff;
+    }
+  }
+}

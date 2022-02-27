@@ -1,0 +1,27 @@
+.app-header {
+  padding: 20px 24px;
+  padding-bottom: 0;
+  // border: 1px solid rgba(0,0,0,0.05);
+  .title-button {
+    margin-left: 15px;
+
+    vertical-align: middle;
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+  svg {
+    vertical-align: middle;
+  }
+  .breadcrumbs {
+    font-size: 13px;
+  }
+  .save-btn-loader {
+    position: absolute;
+  }
+}
+.theme-light {
+  .linked-breadcrumbs {
+    color: rgba($color: #000000, $alpha: 0.65);
+  }
+}

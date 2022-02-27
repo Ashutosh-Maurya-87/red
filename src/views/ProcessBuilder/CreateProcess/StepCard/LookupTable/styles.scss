@@ -1,0 +1,30 @@
+.small-select {
+  .MuiSelect-select {
+    padding-top: 11px;
+    padding-bottom: 11px;
+  }
+  .MuiInputLabel-formControl {
+    transform: translate(14px, 12px) scale(1);
+  }
+  .MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] .MuiAutocomplete-input {
+    padding: 2px 4px;
+  }
+  .MuiAutocomplete-endAdornment {
+    top: calc(50% - 20px);
+  }
+}
+.border-form-input {
+  .small-select {
+    min-width: 175px;
+    max-width: 175px;
+    margin: 0;
+    .MuiSelect-select {
+      padding-top: 6px;
+      padding-bottom: 6px;
+    }
+    @media(max-width: 992px) {
+      min-width: 80%;
+      max-width: 80%;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="28" viewBox="0 0 32 28">
+  <g id="Group_4004" data-name="Group 4004" transform="translate(-2 -4)">
+    <rect id="Rectangle_2744" data-name="Rectangle 2744" width="4" height="2" transform="translate(22.5 24.5)" fill="#21a585"/>
+    <rect id="Rectangle_2745" data-name="Rectangle 2745" width="4" height="2" transform="translate(16.5 24.5)" fill="#21a585"/>
+    <rect id="Rectangle_2746" data-name="Rectangle 2746" width="4" height="2" transform="translate(28.5 24.5)" fill="#21a585"/>
+    <rect id="Rectangle_2747" data-name="Rectangle 2747" width="4" height="2" transform="translate(22.5 28.5)" fill="#21a585"/>
+    <rect id="Rectangle_2748" data-name="Rectangle 2748" width="4" height="2" transform="translate(16.5 28.5)" fill="#21a585"/>
+    <rect id="Rectangle_2749" data-name="Rectangle 2749" width="3" height="2" transform="translate(11.5 24.5)" fill="#21a585"/>
+    <rect id="Rectangle_2750" data-name="Rectangle 2750" width="3" height="2" transform="translate(11.5 28.5)" fill="#21a585"/>
+    <rect id="Rectangle_2751" data-name="Rectangle 2751" width="4" height="2" transform="translate(28.5 28.5)" fill="#21a585"/>
+    <path id="Path_2675" data-name="Path 2675" d="M24,4H4A2,2,0,0,0,2,6V19a2,2,0,0,0,2,2H24a2,2,0,0,0,2-2V6A2,2,0,0,0,24,4ZM19,5V8H14V5Zm-6,8v3H8V13ZM8,12V9h5v3Zm6,1h5v3H14Zm0-1V9h5v3ZM13,5V8H8V5ZM3,9H7v3H3Zm0,4H7v3H3Zm1,7a1,1,0,0,1-1-1V17H7v3Zm4,0V17h5v3Zm6,0V17h5v3Zm11-1a1,1,0,0,1-1,1H20V17h5Zm0-3H20V13h5Zm0-4H20V9h5Zm0-4H20V5h4a1,1,0,0,1,1,1Z" fill="#878787"/>
+    <path id="Path_2676" data-name="Path 2676" d="M32,23H12a2,2,0,0,0-2,2v5a2,2,0,0,0,2,2H32a2,2,0,0,0,2-2V25A2,2,0,0,0,32,23Zm-5,1v3H22V24Zm-6,0v3H16V24ZM11,25a1,1,0,0,1,1-1h3v3H11Zm1,6a1,1,0,0,1-1-1V28h4v3Zm4,0V28h5v3Zm6,0V28h5v3Zm11-1a1,1,0,0,1-1,1H28V28h5Zm0-3H28V24h4a1,1,0,0,1,1,1Z" fill="#878787"/>
+    <path id="Path_2677" data-name="Path 2677" d="M4,29.5l.7-.7-.79-.8H8V27H3.915l.79-.79L4,25.5l-2,2Z" fill="#878787"/>
+  </g>
+</svg>

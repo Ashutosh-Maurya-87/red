@@ -1,0 +1,35 @@
+.dragable-elems-list {
+  .editor-drag-fields {
+    padding: 7px 8px;
+
+    background-color: #424242;
+    border-bottom: 1px solid rgba(255,255,255,0.12);
+  }
+  &:last-child {
+    .create-dialog-grid {
+      border-bottom: 0;
+    }
+    .editor-drag-fields {
+      border-bottom: none;
+    }
+  }
+}
+.drop-box-field {
+  border: 1px solid rgba(255,255,255,0.3);
+}
+.theme-light {
+  .dragable-elems-list {
+    .editor-drag-fields {
+      background-color: #f3f3f3;
+      border-bottom: 1px solid rgba(0,0,0,0.12);
+    }
+    &:last-child {
+      .editor-drag-fields {
+        border-bottom: none;
+      }
+    }
+  }
+  .drop-box-field {
+    border: 1px solid rgba(0,0,0,0.12);
+  }
+}

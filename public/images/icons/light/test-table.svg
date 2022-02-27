@@ -1,0 +1,257 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1135" height="176" viewBox="0 0 1135 176">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2430" data-name="Rectangle 2430" width="180" height="94" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_2431" data-name="Rectangle 2431" width="921" height="94" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect id="Rectangle_2432" data-name="Rectangle 2432" width="206" height="42" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_3282" data-name="Group 3282" transform="translate(-407 -151)">
+    <g id="Repeat_Grid_23" data-name="Repeat Grid 23" transform="translate(441 233)" clip-path="url(#clip-path)">
+      <g id="Group_2220" data-name="Group 2220" transform="translate(-110 -141)">
+        <g id="Rectangle_2244" data-name="Rectangle 2244" transform="translate(110 141)" fill="#f3f3f3" stroke="rgba(0,0,0,0.12)" stroke-width="1">
+          <rect width="180" height="32" stroke="none"/>
+          <rect x="0.5" y="0.5" width="179" height="31" fill="none"/>
+        </g>
+        <text id="USD" transform="translate(125 162)" fill="rgba(0,0,0,0.87)" font-size="14" font-family="Roboto-Regular, Roboto" letter-spacing="0.01em"><tspan x="0" y="0">USD</tspan></text>
+      </g>
+      <g id="Group_2220-2" data-name="Group 2220" transform="translate(-110 -110)">
+        <g id="Rectangle_2244-2" data-name="Rectangle 2244" transform="translate(110 141)" fill="#f3f3f3" stroke="rgba(0,0,0,0.12)" stroke-width="1">
+          <rect width="180" height="32" stroke="none"/>
+          <rect x="0.5" y="0.5" width="179" height="31" fill="none"/>
+        </g>
+        <text id="EURO" transform="translate(125 162)" fill="rgba(0,0,0,0.87)" font-size="14" font-family="Roboto-Regular, Roboto" letter-spacing="0.01em"><tspan x="0" y="0">EURO</tspan></text>
+      </g>
+      <g id="Group_2220-3" data-name="Group 2220" transform="translate(-110 -79)">
+        <g id="Rectangle_2244-3" data-name="Rectangle 2244" transform="translate(110 141)" fill="#f3f3f3" stroke="rgba(0,0,0,0.12)" stroke-width="1">
+          <rect width="180" height="32" stroke="none"/>
+          <rect x="0.5" y="0.5" width="179" height="31" fill="none"/>
+        </g>
+        <text id="INR" transform="translate(125 162)" fill="rgba(0,0,0,0.87)" font-size="14" font-family="Roboto-Regular, Roboto" letter-spacing="0.01em"><tspan x="0" y="0">INR</tspan></text>
+      </g>
+      <g id="Group_2220-4" data-name="Group 2220" transform="translate(-110 -48)">
+        <g id="Rectangle_2244-4" data-name="Rectangle 2244" transform="translate(110 141)" fill="#f3f3f3" stroke="rgba(0,0,0,0.12)" stroke-width="1">
+          <rect width="180" height="32" stroke="none"/>
+          <rect x="0.5" y="0.5" width="179" height="31" fill="none"/>
+        </g>
+        <text id="INR-2" data-name="INR" transform="translate(125 162)" fill="rgba(0,0,0,0.87)" font-size="14" font-family="Roboto-Regular, Roboto" letter-spacing="0.01em"><tspan x="0" y="0">INR</tspan></text>
+      </g>
+    </g>
+    <g id="Repeat_Grid_22" data-name="Repeat Grid 22" transform="translate(620 233)" clip-path="url(#clip-path-2)">
+      <g id="Group_2308" data-name="Group 2308" transform="translate(-110 -141)">
+        <g id="Rectangle_2244-5" data-name="Rectangle 2244" transform="translate(110 141)" fill="#f3f3f3" stroke="rgba(0,0,0,0.12)" stroke-width="1">
+          <rect width="180" height="32" stroke="none"/>
+          <rect x="0.5" y="0.5" width="179" height="31" fill="none"/>
+        </g>
+        <text id="_1" data-name="1" transform="translate(125 162)" fill="rgba(0,0,0,0.87)" font-size="14" font-family="Roboto-Regular, Roboto" letter-spacing="0.01em"><tspan x="0" y="0">1</tspan></text>
+      </g>
+      <g id="Group_2308-2" data-name="Group 2308" transform="translate(69 -141)">
+        <g id="Rectangle_2244-6" data-name="Rectangle 2244" transform="translate(110 141)" fill="#f3f3f3" stroke="rgba(0,0,0,0.12)" stroke-width="1">
+          <rect width="180" height="32" stroke="none"/>
+          <rect x="0.5" y="0.5" width="179" height="31" fill="none"/>
+        </g>
+        <text id="_1-2" data-name="1" transform="translate(125 162)" fill="rgba(0,0,0,0.87)" font-size="14" font-family="Roboto-Regular, Roboto" letter-spacing="0.01em"><tspan x="0" y="0">1</tspan></text>
+      </g>
+      <g id="Group_2308-3" data-name="Group 2308" transform="translate(248 -141)">
+        <g id="Rectangle_2244-7" data-name="Rectangle 2244" transform="translate(110 141)" fill="#f3f3f3" stroke="rgba(0,0,0,0.12)" stroke-width="1">
+          <rect width="180" height="32" stroke="none"/>
+          <rect x="0.5" y="0.5" width="179" height="31" fill="none"/>
+        </g>
+        <text id="_1-3" data-name="1" transform="translate(125 162)" fill="rgba(0,0,0,0.87)" font-size="14" font-family="Roboto-Regular, Roboto" letter-spacing="0.01em"><tspan x="0" y="0">1</tspan></text>
+      </g>
+      <g id="Group_2308-4" data-name="Group 2308" transform="translate(427 -141)">
+        <g id="Rectangle_2244-8" data-name="Rectangle 2244" transform="translate(110 141)" fill="#f3f3f3" stroke="rgba(0,0,0,0.12)" stroke-width="1">
+          <rect width="180" height="32" stroke="none"/>
+          <rect x="0.5" y="0.5" width="179" height="31" fill="none"/>
+        </g>
+        <text id="_1-4" data-name="1" transform="translate(125 162)" fill="rgba(0,0,0,0.87)" font-size="14" font-family="Roboto-Regular, Roboto" letter-spacing="0.01em"><tspan x="0" y="0">1</tspan></text>
+      </g>
+      <g id="Group_2308-5" data-name="Group 2308" transform="translate(606 -141)">
+        <g id="Rectangle_2244-9" data-name="Rectangle 2244" transform="translate(110 141)" fill="#f3f3f3" stroke="rgba(0,0,0,0.12)" stroke-width="1">
+          <rect width="206" height="32" stroke="none"/>
+          <rect x="0.5" y="0.5" width="205" height="31" fill="none"/>
+        </g>
+        <text id="_1-5" data-name="1" transform="translate(125 162)" fill="rgba(0,0,0,0.87)" font-size="14" font-family="Roboto-Regular, Roboto" letter-spacing="0.01em"><tspan x="0" y="0">1</tspan></text>
+      </g>
+      <g id="Group_2308-6" data-name="Group 2308" transform="translate(-110 -110)">
+        <g id="Rectangle_2244-10" data-name="Rectangle 2244" transform="translate(110 141)" fill="#f3f3f3" stroke="rgba(0,0,0,0.12)" stroke-width="1">
+          <rect width="180" height="32" stroke="none"/>
+          <rect x="0.5" y="0.5" width="179" height="31" fill="none"/>
+        </g>
+        <text id="_0.014" data-name="0.014" transform="translate(125 162)" fill="rgba(0,0,0,0.87)" font-size="14" font-family="Roboto-Regular, Roboto" letter-spacing="0.01em"><tspan x="0" y="0">0.014</tspan></text>
+      </g>
+      <g id="Group_2308-7" data-name="Group 2308" transform="translate(69 -110)">
+        <g id="Rectangle_2244-11" data-name="Rectangle 2244" transform="translate(110 141)" fill="#f3f3f3" stroke="rgba(0,0,0,0.12)" stroke-width="1">
+          <rect width="180" height="32" stroke="none"/>
+          <rect x="0.5" y="0.5" width="179" height="31" fill="none"/>
+        </g>
+        <text id="_0.014-2" data-name="0.014" transform="translate(125 162)" fill="rgba(0,0,0,0.87)" font-size="14" font-family="Roboto-Regular, Roboto" letter-spacing="0.01em"><tspan x="0" y="0">0.014</tspan></text>
+      </g>
+      <g id="Group_2308-8" data-name="Group 2308" transform="translate(248 -110)">
+        <g id="Rectangle_2244-12" data-name="Rectangle 2244" transform="translate(110 141)" fill="#f3f3f3" stroke="rgba(0,0,0,0.12)" stroke-width="1">
+          <rect width="180" height="32" stroke="none"/>
+          <rect x="0.5" y="0.5" width="179" height="31" fill="none"/>
+        </g>
+        <text id="_0.014-3" data-name="0.014" transform="translate(125 162)" fill="rgba(0,0,0,0.87)" font-size="14" font-family="Roboto-Regular, Roboto" letter-spacing="0.01em"><tspan x="0" y="0">0.014</tspan></text>
+      </g>
+      <g id="Group_2308-9" data-name="Group 2308" transform="translate(427 -110)">
+        <g id="Rectangle_2244-13" data-name="Rectangle 2244" transform="translate(110 141)" fill="#f3f3f3" stroke="rgba(0,0,0,0.12)" stroke-width="1">
+          <rect width="180" height="32" stroke="none"/>
+          <rect x="0.5" y="0.5" width="179" height="31" fill="none"/>
+        </g>
+        <text id="_0.014-4" data-name="0.014" transform="translate(125 162)" fill="rgba(0,0,0,0.87)" font-size="14" font-family="Roboto-Regular, Roboto" letter-spacing="0.01em"><tspan x="0" y="0">0.014</tspan></text>
+      </g>
+      <g id="Group_2308-10" data-name="Group 2308" transform="translate(716 31)">
+        <g id="Rectangle_2244-14" data-name="Rectangle 2244" fill="#f3f3f3" stroke="rgba(0,0,0,0.12)" stroke-width="1">
+          <rect width="206" height="32" stroke="none"/>
+          <rect x="0.5" y="0.5" width="205" height="31" fill="none"/>
+        </g>
+        <text id="_0.014-5" data-name="0.014" transform="translate(15 21)" fill="rgba(0,0,0,0.87)" font-size="14" font-family="Roboto-Regular, Roboto" letter-spacing="0.01em"><tspan x="0" y="0">0.014</tspan></text>
+      </g>
+      <g id="Group_2308-11" data-name="Group 2308" transform="translate(-110 -79)">
+        <g id="Rectangle_2244-15" data-name="Rectangle 2244" transform="translate(110 141)" fill="#f3f3f3" stroke="rgba(0,0,0,0.12)" stroke-width="1">
+          <rect width="180" height="32" stroke="none"/>
+          <rect x="0.5" y="0.5" width="179" height="31" fill="none"/>
+        </g>
+        <text id="_0.014-6" data-name="0.014" transform="translate(125 162)" fill="rgba(0,0,0,0.87)" font-size="14" font-family="Roboto-Regular, Roboto" letter-spacing="0.01em"><tspan x="0" y="0">0.014</tspan></text>
+      </g>
+      <g id="Group_2308-12" data-name="Group 2308" transform="translate(69 -79)">
+        <g id="Rectangle_2244-16" data-name="Rectangle 2244" transform="translate(110 141)" fill="#f3f3f3" stroke="rgba(0,0,0,0.12)" stroke-width="1">
+          <rect width="180" height="32" stroke="none"/>
+          <rect x="0.5" y="0.5" width="179" height="31" fill="none"/>
+        </g>
+        <text id="_0.014-7" data-name="0.014" transform="translate(125 162)" fill="rgba(0,0,0,0.87)" font-size="14" font-family="Roboto-Regular, Roboto" letter-spacing="0.01em"><tspan x="0" y="0">0.014</tspan></text>
+      </g>
+      <g id="Group_2308-13" data-name="Group 2308" transform="translate(248 -79)">
+        <g id="Rectangle_2244-17" data-name="Rectangle 2244" transform="translate(110 141)" fill="#f3f3f3" stroke="rgba(0,0,0,0.12)" stroke-width="1">
+          <rect width="180" height="32" stroke="none"/>
+          <rect x="0.5" y="0.5" width="179" height="31" fill="none"/>
+        </g>
+        <text id="_0.014-8" data-name="0.014" transform="translate(125 162)" fill="rgba(0,0,0,0.87)" font-size="14" font-family="Roboto-Regular, Roboto" letter-spacing="0.01em"><tspan x="0" y="0">0.014</tspan></text>
+      </g>
+      <g id="Group_2308-14" data-name="Group 2308" transform="translate(427 -79)">
+        <g id="Rectangle_2244-18" data-name="Rectangle 2244" transform="translate(110 141)" fill="#f3f3f3" stroke="rgba(0,0,0,0.12)" stroke-width="1">
+          <rect width="180" height="32" stroke="none"/>
+          <rect x="0.5" y="0.5" width="179" height="31" fill="none"/>
+        </g>
+        <text id="_0.014-9" data-name="0.014" transform="translate(125 162)" fill="rgba(0,0,0,0.87)" font-size="14" font-family="Roboto-Regular, Roboto" letter-spacing="0.01em"><tspan x="0" y="0">0.014</tspan></text>
+      </g>
+      <g id="Group_2308-15" data-name="Group 2308" transform="translate(716 62)">
+        <g id="Rectangle_2244-19" data-name="Rectangle 2244" fill="#f3f3f3" stroke="rgba(0,0,0,0.12)" stroke-width="1">
+          <rect width="206" height="32" stroke="none"/>
+          <rect x="0.5" y="0.5" width="205" height="31" fill="none"/>
+        </g>
+        <text id="_0.014-10" data-name="0.014" transform="translate(15 21)" fill="rgba(0,0,0,0.87)" font-size="14" font-family="Roboto-Regular, Roboto" letter-spacing="0.01em"><tspan x="0" y="0">0.014</tspan></text>
+      </g>
+      <g id="Group_2308-16" data-name="Group 2308" transform="translate(-110 -48)">
+        <g id="Rectangle_2244-20" data-name="Rectangle 2244" transform="translate(110 141)" fill="#f3f3f3" stroke="rgba(0,0,0,0.12)" stroke-width="1">
+          <rect width="180" height="32" stroke="none"/>
+          <rect x="0.5" y="0.5" width="179" height="31" fill="none"/>
+        </g>
+        <text id="_1-6" data-name="1" transform="translate(125 162)" fill="rgba(0,0,0,0.87)" font-size="14" font-family="Roboto-Regular, Roboto" letter-spacing="0.01em"><tspan x="0" y="0">1</tspan></text>
+      </g>
+      <g id="Group_2308-17" data-name="Group 2308" transform="translate(69 -48)">
+        <g id="Rectangle_2244-21" data-name="Rectangle 2244" transform="translate(110 141)" fill="#f3f3f3" stroke="rgba(0,0,0,0.12)" stroke-width="1">
+          <rect width="180" height="32" stroke="none"/>
+          <rect x="0.5" y="0.5" width="179" height="31" fill="none"/>
+        </g>
+        <text id="_1-7" data-name="1" transform="translate(125 162)" fill="rgba(0,0,0,0.87)" font-size="14" font-family="Roboto-Regular, Roboto" letter-spacing="0.01em"><tspan x="0" y="0">1</tspan></text>
+      </g>
+      <g id="Group_2308-18" data-name="Group 2308" transform="translate(248 -48)">
+        <g id="Rectangle_2244-22" data-name="Rectangle 2244" transform="translate(110 141)" fill="#f3f3f3" stroke="rgba(0,0,0,0.12)" stroke-width="1">
+          <rect width="180" height="32" stroke="none"/>
+          <rect x="0.5" y="0.5" width="179" height="31" fill="none"/>
+        </g>
+        <text id="_1-8" data-name="1" transform="translate(125 162)" fill="rgba(0,0,0,0.87)" font-size="14" font-family="Roboto-Regular, Roboto" letter-spacing="0.01em"><tspan x="0" y="0">1</tspan></text>
+      </g>
+      <g id="Group_2308-19" data-name="Group 2308" transform="translate(427 -48)">
+        <g id="Rectangle_2244-23" data-name="Rectangle 2244" transform="translate(110 141)" fill="#f3f3f3" stroke="rgba(0,0,0,0.12)" stroke-width="1">
+          <rect width="180" height="32" stroke="none"/>
+          <rect x="0.5" y="0.5" width="179" height="31" fill="none"/>
+        </g>
+        <text id="_1-9" data-name="1" transform="translate(125 162)" fill="rgba(0,0,0,0.87)" font-size="14" font-family="Roboto-Regular, Roboto" letter-spacing="0.01em"><tspan x="0" y="0">1</tspan></text>
+      </g>
+      <g id="Group_2308-20" data-name="Group 2308" transform="translate(716 93)">
+        <g id="Rectangle_2244-24" data-name="Rectangle 2244" fill="#f3f3f3" stroke="rgba(0,0,0,0.12)" stroke-width="1">
+          <rect width="206" height="32" stroke="none"/>
+          <rect x="0.5" y="0.5" width="205" height="31" fill="none"/>
+        </g>
+        <text id="_1-10" data-name="1" transform="translate(15 21)" fill="rgba(0,0,0,0.87)" font-size="14" font-family="Roboto-Regular, Roboto" letter-spacing="0.01em"><tspan x="0" y="0">1</tspan></text>
+      </g>
+    </g>
+    <g id="Group_2310" data-name="Group 2310" transform="translate(510 51)">
+      <g id="Rectangle_2244-25" data-name="Rectangle 2244" transform="translate(110 141)" fill="#f3f3f3" stroke="rgba(0,0,0,0.12)" stroke-width="1">
+        <rect width="180" height="42" stroke="none"/>
+        <rect x="0.5" y="0.5" width="179" height="41" fill="none"/>
+      </g>
+      <text id="Jan_2020" data-name="Jan, 2020" transform="translate(125 167.333)" fill="rgba(0,0,0,0.6)" font-size="14" font-family="Roboto-Regular, Roboto" letter-spacing="0.01em"><tspan x="0" y="0">Jan, 2020</tspan></text>
+    </g>
+    <g id="Group_3089" data-name="Group 3089" transform="translate(510 10)">
+      <g id="Rectangle_2244-26" data-name="Rectangle 2244" transform="translate(110 141)" fill="#f3f3f3" stroke="rgba(0,0,0,0.12)" stroke-width="1">
+        <rect width="921" height="42" stroke="none"/>
+        <rect x="0.5" y="0.5" width="920" height="41" fill="none"/>
+      </g>
+      <text id="Period" transform="translate(125 167.333)" fill="rgba(0,0,0,0.6)" font-size="14" font-family="Roboto-Regular, Roboto" letter-spacing="0.01em"><tspan x="0" y="0">Period</tspan></text>
+    </g>
+    <g id="Group_2311" data-name="Group 2311" transform="translate(689 51)">
+      <g id="Rectangle_2244-27" data-name="Rectangle 2244" transform="translate(110 141)" fill="#f3f3f3" stroke="rgba(0,0,0,0.12)" stroke-width="1">
+        <rect width="180" height="42" stroke="none"/>
+        <rect x="0.5" y="0.5" width="179" height="41" fill="none"/>
+      </g>
+      <text id="Feb_2020" data-name="Feb, 2020" transform="translate(125 167.333)" fill="rgba(0,0,0,0.6)" font-size="14" font-family="Roboto-Regular, Roboto" letter-spacing="0.01em"><tspan x="0" y="0">Feb, 2020</tspan></text>
+    </g>
+    <g id="Group_3174" data-name="Group 3174" transform="translate(1047 51)">
+      <g id="Rectangle_2244-28" data-name="Rectangle 2244" transform="translate(110 141)" fill="#f3f3f3" stroke="rgba(0,0,0,0.12)" stroke-width="1">
+        <rect width="180" height="42" stroke="none"/>
+        <rect x="0.5" y="0.5" width="179" height="41" fill="none"/>
+      </g>
+      <text id="Apr_2020" data-name="Apr, 2020" transform="translate(125 167.333)" fill="rgba(0,0,0,0.6)" font-size="14" font-family="Roboto-Regular, Roboto" letter-spacing="0.01em"><tspan x="0" y="0">Apr, 2020</tspan></text>
+    </g>
+    <g id="Group_2313" data-name="Group 2313" transform="translate(868 51)">
+      <g id="Rectangle_2244-29" data-name="Rectangle 2244" transform="translate(110 141)" fill="#f3f3f3" stroke="rgba(0,0,0,0.12)" stroke-width="1">
+        <rect width="180" height="42" stroke="none"/>
+        <rect x="0.5" y="0.5" width="179" height="41" fill="none"/>
+      </g>
+      <text id="Mar_2020" data-name="Mar, 2020" transform="translate(125 167.333)" fill="rgba(0,0,0,0.6)" font-size="14" font-family="Roboto-Regular, Roboto" letter-spacing="0.01em"><tspan x="0" y="0">Mar, 2020</tspan></text>
+    </g>
+    <g id="Repeat_Grid_24" data-name="Repeat Grid 24" transform="translate(1336 192)" clip-path="url(#clip-path-3)">
+      <g id="Group_3173" data-name="Group 3173">
+        <g id="Rectangle_2244-30" data-name="Rectangle 2244" fill="#f3f3f3" stroke="rgba(0,0,0,0.12)" stroke-width="1">
+          <rect width="204.995" height="42" stroke="none"/>
+          <rect x="0.5" y="0.5" width="203.995" height="41" fill="none"/>
+        </g>
+        <text id="May_2020" data-name="May, 2020" transform="translate(15.073 26.333)" fill="rgba(0,0,0,0.6)" font-size="14" font-family="Roboto-Regular, Roboto" letter-spacing="0.01em"><tspan x="0" y="0">May, 2020</tspan></text>
+      </g>
+    </g>
+    <g id="Group_2344" data-name="Group 2344" transform="translate(297 89)">
+      <g id="Rectangle_2257" data-name="Rectangle 2257" transform="translate(110 144)" fill="#f3f3f3" stroke="rgba(0,0,0,0.12)" stroke-width="1">
+        <rect width="35" height="32" stroke="none"/>
+        <rect x="0.5" y="0.5" width="34" height="31" fill="none"/>
+      </g>
+      <g id="Rectangle_2259" data-name="Rectangle 2259" transform="translate(110 175)" fill="#f3f3f3" stroke="rgba(0,0,0,0.12)" stroke-width="1">
+        <rect width="35" height="32" stroke="none"/>
+        <rect x="0.5" y="0.5" width="34" height="31" fill="none"/>
+      </g>
+      <g id="Rectangle_2260" data-name="Rectangle 2260" transform="translate(110 206)" fill="#f3f3f3" stroke="rgba(0,0,0,0.12)" stroke-width="1">
+        <rect width="35" height="32" stroke="none"/>
+        <rect x="0.5" y="0.5" width="34" height="31" fill="none"/>
+      </g>
+    </g>
+    <g id="Rectangle_2258" data-name="Rectangle 2258" transform="translate(407 151)">
+      <path id="Path_2490" data-name="Path 2490" d="M6,0H35V83H0V6A6,6,0,0,1,6,0Z" fill="#f3f3f3"/>
+      <path id="Path_2491" data-name="Path 2491" d="M6,.5H34a.5.5,0,0,1,.5.5V82a.5.5,0,0,1-.5.5H1A.5.5,0,0,1,.5,82V6A5.5,5.5,0,0,1,6,.5Z" fill="none" stroke="rgba(0,0,0,0.12)" stroke-width="1"/>
+    </g>
+    <text id="_1-11" data-name="1" transform="translate(420.069 254)" fill="rgba(0,0,0,0.4)" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">1</tspan></text>
+    <text id="_2" data-name="2" transform="translate(420.069 285)" fill="rgba(0,0,0,0.4)" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">2</tspan></text>
+    <text id="_3" data-name="3" transform="translate(420.069 316)" fill="rgba(0,0,0,0.4)" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">3</tspan></text>
+    <g id="Rectangle_2244-31" data-name="Rectangle 2244" transform="translate(441 151)" fill="#f3f3f3" stroke="rgba(0,0,0,0.12)" stroke-width="1">
+      <rect width="180" height="83" stroke="none"/>
+      <rect x="0.5" y="0.5" width="179" height="82" fill="none"/>
+    </g>
+    <text id="Currencies" transform="translate(456 197.334)" fill="rgba(0,0,0,0.6)" font-size="14" font-family="Roboto-Regular, Roboto" letter-spacing="0.01em"><tspan x="0" y="0">Currencies</tspan></text>
+  </g>
+</svg>

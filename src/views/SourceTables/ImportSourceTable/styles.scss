@@ -1,0 +1,27 @@
+.drag-drop-dialog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 520px;
+  min-height: 216px;
+  padding: 40px 10px;
+
+  border: 2px dashed rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.theme-light {
+  .drag-drop-dialog {
+    border-color: #ececec;
+  }
+}
+
+.warning-col {
+  padding: 10px;
+  .warning-icon {
+    margin-right: 10px;
+    margin-left: 5px;
+
+    color: #f1ff30;
+  }
+}

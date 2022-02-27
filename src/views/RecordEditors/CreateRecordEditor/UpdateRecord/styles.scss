@@ -1,0 +1,60 @@
+.pagination-wrapper {
+  .pagi-input {
+    width: 50px;
+
+    input {
+      height: 24px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+    }
+  }
+}
+.record-editor-filter {
+  visibility: hidden;
+}
+.record-editor-input {
+  &:hover {
+    .record-editor-filter {
+      visibility: visible;
+    }
+  }
+  .MuiBadge-badge {
+    height: 14px;
+    min-width: 14px;
+    padding: 0 2px;
+    font-size: 11px;
+  }
+  input {
+    text-overflow: ellipsis;
+  }
+}
+.MuiIconButton-root.add-new-year-btn {
+  color: rgba(255, 255, 255, 0.5);
+  // border: 1px solid rgba(255, 255, 255, 0.3);
+  height: 30px;
+  width: 76px;
+  border-radius: 0;
+  margin-top: -25px;
+  &:hover {
+    color: #00b398;
+    border-color: #00b398;
+  }
+}
+.theme-light {
+  .MuiIconButton-root.add-new-year-btn {
+    color: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    &:hover {
+      color: #0094ff;
+      border-color: #0094ff;
+    }
+  }
+}
+.theme-yellow {
+  .MuiIconButton-root.add-new-year-btn {
+    &:hover {
+      color: #ffc001;
+      border-color: #ffc001;
+    }
+  }
+}

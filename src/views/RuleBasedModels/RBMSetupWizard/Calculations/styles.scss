@@ -1,0 +1,105 @@
+.calculation-box {
+  display: flex;
+  margin-bottom: 16px;
+  @media (max-width: 1680px) {
+    width: 100vw;
+  }
+  .MuiTypography-root {
+    span {
+      color: rgba($color: #000, $alpha: 0.6);
+    }
+  }
+}
+.calculations-group,
+.scenario-validation {
+  .MuiExpansionPanelSummary-content.Mui-expanded {
+    margin: 0;
+  }
+  .MuiExpansionPanel-root.Mui-expanded {
+    margin-top: 0;
+  }
+  .MuiExpansionPanelDetails-root {
+    border-top: 1px solid rgba($color: #fff, $alpha: 0.12);
+    padding-top: 16px;
+  }
+  .calculation-field-value {
+    margin: 12px 0;
+  }
+}
+.add-calculation-footer {
+  display: flex;
+  position: sticky;
+  bottom: -20px;
+  background: inherit;
+  margin: 20px -20px -20px;
+  padding: 15px;
+  z-index: 1;
+}
+.calculation-group-list {
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.12);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  .MuiListItem-gutters {
+    padding-right: 80px;
+  }
+  .delete-icon {
+    visibility: hidden;
+  }
+  &:hover {
+    .delete-icon {
+      visibility: visible;
+    }
+  }
+  .sidebar-menu {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    &.selected {
+      border-right: 2px solid #00b398;
+    }
+    &:hover {
+      background-color: transparent;
+    }
+  }
+}
+.theme-dark,
+.theme-yellow {
+  .calculation-panel {
+    background-color: rgba($color: #000000, $alpha: 0.3);
+  }
+  .calculation-box {
+    .MuiTypography-root {
+      span {
+        color: rgba($color: #fff, $alpha: 0.7);
+      }
+    }
+  }
+}
+.theme-yellow {
+  .calculation-group-list {
+    .sidebar-menu {
+      &.selected {
+        border-right-color: #ffc001;
+      }
+    }
+  }
+}
+.theme-light {
+  .calculation-box {
+    background-color: #f1f1f1;
+  }
+  .calculations-group,
+  .scenario-validation {
+    .MuiExpansionPanelDetails-root {
+      border-top: 1px solid rgba($color: #000, $alpha: 0.12);
+    }
+  }
+  .calculation-group-list {
+    .sidebar-menu {
+      &.selected {
+        border-right-color: #0094ff;
+      }
+    }
+  }
+}

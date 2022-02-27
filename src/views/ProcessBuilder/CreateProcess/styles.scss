@@ -1,0 +1,191 @@
+.builder-process-container {
+  padding: 20px 0;
+  .paper-content {
+    flex: 0 0 calc(100% - 70px);
+    margin: 5px 0;
+    border: 1px dashed transparent;
+  }
+  .border-dashed {
+    border-style: dashed;
+  }
+}
+
+.flex {
+  display: flex;
+}
+
+.process-step-icon {
+  justify-content: center;
+  align-items: center;
+  width: 58px;
+  height: 58px;
+  margin-top: 5px;
+  margin-right: 10px;
+
+  text-align: center;
+
+  background-color: #f1f1f1;
+  border: 3px solid #e8e8e8;
+  border-radius: 50%;
+  > span {
+    width: 52px;
+    height: 52px;
+
+    text-align: center;
+
+    background-color: #e8e8e8;
+    border-radius: 50%;
+    .MuiIconButton-label,
+    img,
+    .MuiIconButton-root {
+      position: relative;
+      top: 50%;
+
+      transform: translate(0, -50%);
+    }
+    .MuiIconButton-root {
+      svg {
+        top: auto;
+
+        transform: none;
+      }
+    }
+  }
+  .MuiCheckbox-root {
+    color: #747474;
+  }
+}
+.run-split-btn {
+  .MuiButtonGroup-grouped {
+    min-width: 35px;
+  }
+  .MuiButton-containedSizeSmall {
+    padding: 4px 5px;
+  }
+}
+.theme-dark {
+  .step-selection {
+    .process-step-icon {
+      &:before {
+        background-image: linear-gradient(
+          rgba(255, 255, 255, 0.12) 40%,
+          rgba(255, 255, 255, 0) 0%
+        );
+      }
+    }
+  }
+}
+.theme-yellow {
+  .step-selection {
+    .process-step-icon {
+      &:before {
+        background-image: linear-gradient(
+          #37383d 40%,
+          rgba(255, 255, 255, 0) 0%
+        );
+      }
+    }
+  }
+}
+.step-selection {
+  position: relative;
+
+  padding-right: 24px;
+  padding-bottom: 30px;
+  padding-left: 24px;
+  .process-step-icon {
+    .step-checkbox {
+      display: none;
+    }
+    &:before {
+      content: '';
+      position: absolute;
+      top: 60px;
+      bottom: -4px;
+
+      width: 2px;
+      height: 100%;
+
+      background-image: linear-gradient(#e8e8e8 40%, rgba(255, 255, 255, 0) 0%);
+      background-repeat: repeat-y;
+      background-position: right;
+      background-size: 2px 12px;
+    }
+
+    &:hover {
+      .step-icon {
+        display: none;
+      }
+      .step-checkbox {
+        display: block;
+      }
+    }
+    .always-visible {
+      display: block !important;
+    }
+    .always-hidden {
+      display: none;
+    }
+  }
+  &:last-child {
+    .process-step-icon {
+      &:before {
+        background-image: none;
+      }
+    }
+  }
+}
+.upload-progress-icon {
+  position: absolute;
+}
+.upload-loader-progress {
+  display: block;
+  width: 52px;
+  height: 52px;
+  .loader {
+    transform-origin: center;
+
+    animation: rotate 2s linear infinite;
+  }
+  .loader circle {
+    animation: dash 1.5s ease-in-out infinite;
+
+    stroke: #0094ff;
+    stroke-dasharray: 124, 200;
+    stroke-dashoffset: 0;
+    stroke-linecap: round;
+    stroke-width: 3;
+  }
+  @keyframes rotate {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes dash {
+    0% {
+      stroke-dasharray: 1, 200;
+      stroke-dashoffset: 0;
+    }
+    50% {
+      stroke-dasharray: 90, 200;
+      stroke-dashoffset: -35px;
+    }
+    100% {
+      stroke-dashoffset: -125px;
+    }
+  }
+}
+.theme-yellow {
+  .upload-loader-progress {
+    .loader circle {
+      stroke: #ffc001;
+    }
+  }
+}
+.theme-dark {
+  .upload-loader-progress {
+    .loader circle {
+      stroke: #00b398;
+    }
+  }
+}
